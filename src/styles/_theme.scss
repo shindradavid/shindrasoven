@@ -1,0 +1,34 @@
+:root {
+  // brand colors
+  --magma: hsl(1, 77%, 51%);
+  --snow: hsl(0, 100%, 100%);
+  --almond-milk: hsl(60, 9%, 91%);
+  --almond-milk-light: hsl(60, 9%, 91%, 86%);
+  --lava-stone: hsl(0, 0%, 20%);
+  --lava-stone-light: hsl(0, 0%, 20%, 86%);
+  // background-color
+  --bg-primary: var(--almond-milk);
+  --bg-secondary: var(--gray-100);
+  --bg-tertiary: var(--gray-200);
+  // text
+  --txt-primary: var(--lava-stone);
+  --txt-secondary: var(--lava-stone-light);
+  --txt-tertiary: var(--gray-700);
+  // call to action
+  --cta-bg: var(--magma);
+  --cta-txt: var(--snow);
+  // links
+  --link-txt: var(--magma);
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--txt-secondary);
+}
+
+a,
+h1,
+h2,
+h3 {
+  color: var(--txt-primary);
+}

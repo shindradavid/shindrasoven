@@ -1,0 +1,47 @@
+:root {
+  /* spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 40px;
+  --spacing-3xl: 48px;
+  --spacing-4xl: 56px;
+  --spacing-5xl: 64px;
+  --spacing-6xl: 72px;
+  --spacing-7xl: 80px;
+  --spacing-8xl: 88px;
+  --spacing-9xl: 96px;
+  --spacing-xxl: 104px;
+  --spacing-2xxl: 112px;
+  --spacing-3xxl: 120px;
+  --spacing-4xxl: 128px;
+  --spacing-5xxl: 136px;
+  --spacing-6xxl: 144px;
+  /* animation timing functions */
+  --animation-linear: cubic-bezier(0, 0, 1, 1);
+  --animation-ease-in: cubic-bezier(0.8, 0.2, 0.6, 1);
+  --animation-ease-out: cubic-bezier(0.2, 0.8, 0.4, 1);
+  --animation-ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+
+  --base-animation-speed: ;
+  /* animation duration */
+  --animation-duration-fastest: 200ms;
+  --animation-duration-fast: 300ms;
+  --animation-duration-normal: 400ms;
+  --animation-duration-slow: 500ms;
+  --animation-duration-slowest: 600ms;
+  /* border-radius */
+  --base-radius: ;
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --radius-2xl: 40px;
+  --radius-3xl: 48px;
+  --radius-4xl: 56px;
+  --radius-5xl: 64px;
+  --radius-6xl: 72px;
+}
