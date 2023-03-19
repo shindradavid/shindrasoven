@@ -1,0 +1,37 @@
+/* MEDIA QUERIES */
+
+@mixin screen-sm {
+  @media screen and (max-width: 480px) {
+    @content;
+  }
+}
+
+@mixin screen-md {
+  @media screen and (min-width: 480px) {
+    @content;
+  }
+}
+
+@mixin screen-lg {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin screen-xl {
+  @media screen and (min-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin screen-2xl {
+  @media screen and (min-width: 1280px) {
+    @content;
+  }
+}
+
+@mixin screen-3xl {
+  @media screen and (min-width: 1600px) {
+    @content;
+  }
+}

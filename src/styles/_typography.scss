@@ -1,0 +1,73 @@
+@use './mixins';
+
+:root {
+  // font-family
+  --headings-ff: 'Space Grotesk', Helvetica, Arial, sans-serif;
+  --base-ff: 'Montserrat', Helvetica, Arial, sans-serif;
+
+  // font-size
+  font-size: 62.5%;
+  --xs-fs: 1.2rem;
+  --sm-fs: 1.4rem;
+  --base-fs: 1.6rem;
+  --md-fs: 1.8rem;
+  --lg-fs: 2.4rem;
+  --xl-fs: 3.2rem;
+
+  @include mixins.screen-lg {
+    --xs-fs: 1.4rem;
+    --sm-fs: 1.6rem;
+    --base-fs: 1.8rem;
+    --md-fs: 2.4rem;
+    --lg-fs: 3.2rem;
+    --xl-fs: 4rem;
+  }
+
+  @supports (font-size: clamp(1.6rem, 1.536rem + 0.18vw, 1.8rem)) {
+    --xs-fs: clamp(1.2rem, 1.136rem + 0.18vh, 1.4rem);
+    --sm-fs: clamp(1.4rem, 1.22rem + 0.18vh, 1.6rem);
+    --base-fs: clamp(1.6rem, 1.536rem + 0.18vw, 1.8rem);
+    --md-fs: clamp(1.8rem, 1.776rem + 0.71vw, 2.4rem);
+    --lg-fs: clamp(2.4rem, 2rem + 1.07vw, 3.2rem);
+    --xl-fs: clamp(3.2rem, 2.22rem + 1.79vw, 4rem);
+  }
+}
+
+body {
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: var(--base-fs);
+  line-height: 1.6;
+  font-family: var(--base-ff);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.3;
+  font-family: var(--headings-ff);
+}
+
+h1 {
+  font-size: var(--xl-fs);
+  font-weight: 700;
+  line-height: 1;
+}
+
+h2 {
+  font-size: var(--lg-fs);
+  font-weight: 600;
+  line-height: 1;
+}
+
+h3 {
+  font-size: var(--md-fs);
+  font-weight: 500;
+  line-height: 1.25;
+}

@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "vite dev",
+    "dev": "vite dev --host 0.0.0.0",
     "build": "vite build",
-    "preview": "vite preview",
+    "preview": "vite preview --host 0.0.0.0",
     "test": "playwright test",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.28.1",
+    "@rgossiaux/svelte-headlessui": "^1.0.2",
     "@sveltejs/adapter-auto": "^2.0.0",
     "@sveltejs/kit": "^1.5.0",
     "@typescript-eslint/eslint-plugin": "^5.45.0",
@@ -26,6 +27,7 @@
     "prettier-plugin-svelte": "^2.8.1",
     "sass": "^1.59.3",
     "svelte": "^3.54.0",
+    "svelte-carousel": "^1.0.23",
     "svelte-check": "^3.0.1",
     "tslib": "^2.4.1",
     "typescript": "^4.9.3",
