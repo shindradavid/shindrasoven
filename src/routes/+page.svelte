@@ -3,10 +3,13 @@
 
   import Seo from '$components/Seo.svelte';
   import Footer from '$components/Footer.svelte';
+  import Header from '$components/Header.svelte';
 
 </script>
 
 <Seo />
+
+<Header />
 
 <main>
   <h1>Shindra's oven.</h1>
