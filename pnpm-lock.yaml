@@ -12,6 +12,7 @@ specifiers:
   eslint-plugin-svelte3: ^4.0.0
   prettier: ^2.8.0
   prettier-plugin-svelte: ^2.8.1
+  remixicon: ^2.5.0
   sass: ^1.59.3
   svelte: ^3.54.0
   svelte-carousel: ^1.0.23
@@ -33,6 +34,7 @@ devDependencies:
   eslint-plugin-svelte3: 4.0.0_wzem237sbvnwe7n34ytc5phasy
   prettier: 2.8.4
   prettier-plugin-svelte: 2.9.0_k23gl6auqwrxgr3e6o2bajswou
+  remixicon: 2.5.0
   sass: 1.59.3
   svelte: 3.57.0
   svelte-carousel: 1.0.23
@@ -1498,6 +1500,10 @@ packages:
     engines: {node: '>=8.10.0'}
     dependencies:
       picomatch: 2.3.1
+    dev: true
+
+  /remixicon/2.5.0:
+    resolution: {integrity: sha512-q54ra2QutYDZpuSnFjmeagmEiN9IMo56/zz5dDNitzKD23oFRw77cWo4TsrAdmdkPiEn8mxlrTqxnkujDbEGww==}
     dev: true
 
   /resolve-from/4.0.0:

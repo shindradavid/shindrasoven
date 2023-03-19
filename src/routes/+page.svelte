@@ -1,7 +1,12 @@
 <script lang="ts">
   import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@rgossiaux/svelte-headlessui';
 
+  import Seo from '$components/Seo.svelte';
+  import Footer from '$components/Footer.svelte';
+
 </script>
+
+<Seo />
 
 <main>
   <h1>Shindra's oven.</h1>
@@ -13,9 +18,9 @@
 
     <TabGroup>
       <TabList>
-        <Tab class={({selected}) => "tab-selected" : "tab-unselected"}>Cakes</Tab>
-        <Tab class={({selected}) => "tab-selected" : "tab-unselected"}>Cup cakes</Tab>
-        <Tab class={({selected}) => "tab-selected" : "tab-unselected"}>Cookies</Tab>
+        <Tab class={({selected}) => selected ? "tab-selected" : "tab-unselected"}>Cakes</Tab>
+        <Tab class={({selected}) => selected ? "tab-selected" : "tab-unselected"}>Cup cakes</Tab>
+        <Tab class={({selected}) => selected ? "tab-selected" : "tab-unselected"}>Cookies</Tab>
       </TabList>
       <TabPanels>
         <TabPanel>Content 1</TabPanel>
@@ -30,6 +35,10 @@
   </section>
 
   <section>
+    <h2>Reviews</h2>
+  </section>
+
+  <section>
     <div>
       <h2>Our contacts</h2>
       <p>Phone (Airtel)</p>
@@ -39,5 +48,7 @@
     </div>
   </section>
 </main>
+
+<Footer />
 
 <style lang="scss"></style>
