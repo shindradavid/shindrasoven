@@ -4,7 +4,6 @@
   import Seo from '$components/Seo.svelte';
   import Footer from '$components/Footer.svelte';
   import Header from '$components/Header.svelte';
-
 </script>
 
 <Seo />
@@ -21,9 +20,10 @@
 
     <TabGroup>
       <TabList>
-        <Tab class={({selected}) => selected ? "tab-selected" : "tab-unselected"}>Cakes</Tab>
-        <Tab class={({selected}) => selected ? "tab-selected" : "tab-unselected"}>Cup cakes</Tab>
-        <Tab class={({selected}) => selected ? "tab-selected" : "tab-unselected"}>Cookies</Tab>
+        <Tab class={({ selected }) => (selected ? 'tab-selected' : 'tab-unselected')}>Cakes</Tab>
+        <Tab class={({ selected }) => (selected ? 'tab-selected' : 'tab-unselected')}>Cup cakes</Tab
+        >
+        <Tab class={({ selected }) => (selected ? 'tab-selected' : 'tab-unselected')}>Cookies</Tab>
       </TabList>
       <TabPanels>
         <TabPanel>Content 1</TabPanel>
