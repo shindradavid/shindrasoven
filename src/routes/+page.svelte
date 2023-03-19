@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+
+</script>
+
+<main>
+  <h1>Shindra's oven.</h1>
+  <p>Baked to perfection, just for you.</p>
+</main>
+
+<style lang="scss"></style>
