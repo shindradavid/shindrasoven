@@ -1,0 +1,17 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Crimson';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/Crimson-Bold.woff2') format('woff2'),
+    url('/fonts/Crimson-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Crimson';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/Crimson-Semibold.woff2') format('woff2'),
+    url('/fonts/Crimson-Semibold.woff') format('woff');
+}
