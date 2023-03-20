@@ -5,6 +5,7 @@
   import Footer from '$components/Footer.svelte';
   import Header from '$components/Header.svelte';
   import Hero from '$components/Hero.svelte';
+  import Catalog from '$components/Catalog.svelte';
 </script>
 
 <Seo />
@@ -13,23 +14,7 @@
 
 <main>
   <Hero />
-  <section>
-    <h2>Our catalog</h2>
-
-    <TabGroup>
-      <TabList>
-        <Tab class={({ selected }) => (selected ? 'tab-selected' : 'tab-unselected')}>Cakes</Tab>
-        <Tab class={({ selected }) => (selected ? 'tab-selected' : 'tab-unselected')}>Cup cakes</Tab
-        >
-        <Tab class={({ selected }) => (selected ? 'tab-selected' : 'tab-unselected')}>Cookies</Tab>
-      </TabList>
-      <TabPanels>
-        <TabPanel>Content 1</TabPanel>
-        <TabPanel>Content 2</TabPanel>
-        <TabPanel>Content 3</TabPanel>
-      </TabPanels>
-    </TabGroup>
-  </section>
+  <Catalog />
 
   <section>
     <h2>About us</h2>
