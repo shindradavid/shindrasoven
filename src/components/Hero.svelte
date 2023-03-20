@@ -1,7 +1,7 @@
 <section class="hero">
-  <h1>Shindra's oven.</h1>
+  <h1>cakes & pizzas</h1>
   <p>Baked to perfection, just for you.</p>
-  <a href="#contact-us">Contact us</a>
+  <a href="#contact-us">View catalog</a>
 </section>
 
 <style lang="scss">

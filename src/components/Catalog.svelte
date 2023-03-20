@@ -7,8 +7,8 @@
 
   <TabGroup>
     <TabList>
-      <Tab class={({ selected }) => (selected ? 'tab-selected' : 'tab-unselected')}>Cakes</Tab>
-      <Tab class={({ selected }) => (selected ? 'tab-selected' : 'tab-unselected')}>Cup cakes</Tab>
+      <Tab class={({ selected }) => (selected ? 'tab-selected' : 'tab-unselected')}>Birthday cakes</Tab>
+      <Tab class={({ selected }) => (selected ? 'tab-selected' : 'tab-unselected')}>Wedding cakes</Tab>
       <Tab class={({ selected }) => (selected ? 'tab-selected' : 'tab-unselected')}>Cookies</Tab>
       <Tab class={({ selected }) => (selected ? 'tab-selected' : 'tab-unselected')}>Pizzas</Tab>
     </TabList>
