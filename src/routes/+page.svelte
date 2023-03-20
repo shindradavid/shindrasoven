@@ -4,6 +4,7 @@
   import Seo from '$components/Seo.svelte';
   import Footer from '$components/Footer.svelte';
   import Header from '$components/Header.svelte';
+  import Hero from '$components/Hero.svelte';
 </script>
 
 <Seo />
@@ -11,10 +12,7 @@
 <Header />
 
 <main>
-  <h1>Shindra's oven.</h1>
-  <p>Baked to perfection, just for you.</p>
-  <a href="#contact-us">Contact us</a>
-
+  <Hero />
   <section>
     <h2>Our catalog</h2>
 
