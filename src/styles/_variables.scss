@@ -19,29 +19,23 @@
   --spacing-4xxl: 128px;
   --spacing-5xxl: 136px;
   --spacing-6xxl: 144px;
-  /* animation timing functions */
-  --animation-linear: cubic-bezier(0, 0, 1, 1);
-  --animation-ease-in: cubic-bezier(0.8, 0.2, 0.6, 1);
-  --animation-ease-out: cubic-bezier(0.2, 0.8, 0.4, 1);
-  --animation-ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
 
-  --base-animation-speed: ;
-  /* animation duration */
-  --animation-duration-fastest: 200ms;
-  --animation-duration-fast: 300ms;
-  --animation-duration-normal: 400ms;
-  --animation-duration-slow: 500ms;
-  --animation-duration-slowest: 600ms;
+  /* animation timing functions */
+  --linear-curve: cubic-bezier(0, 0, 1, 1);
+  --ease-in-curve: cubic-bezier(0.8, 0.2, 0.6, 1);
+  --ease-out-curve: cubic-bezier(0.2, 0.8, 0.4, 1);
+  --ease-in-out-curve: cubic-bezier(0.4, 0, 0.2, 1);
+
+  // animation speed
+  --slow-animation-speed: 600ms;
+  --base-animation-speed: 400ms;
+  --fast-animation-speed: 200ms;
+
   /* border-radius */
-  --base-radius: ;
-  --radius-xs: 4px;
-  --radius-sm: 8px;
-  --radius-md: 16px;
-  --radius-lg: 24px;
-  --radius-xl: 32px;
-  --radius-2xl: 40px;
-  --radius-3xl: 48px;
-  --radius-4xl: 56px;
-  --radius-5xl: 64px;
-  --radius-6xl: 72px;
+  --xs-radius: 8px;
+  --sm-radius: 16px;
+  --base-radius: 24px;
+  --md-radius: 32px;
+  --lg-radius:40px ;
+  --xl-radius: 48px;
 }

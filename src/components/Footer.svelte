@@ -14,7 +14,7 @@
 </script>
 
 <footer>
-  <p>&copy; Shindra's Oven { new Date().getFullYear() }</p>
+  <p>&copy; Shindra's Oven {new Date().getFullYear()}. All rights reserved.</p>
   <p>
     Built with <span style="color: hsl(0, 74%, 50%);"><i class="ri-heart-fill" /></span>
     by

@@ -1,40 +1,62 @@
 <script lang="ts">
-  import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@rgossiaux/svelte-headlessui';
-
+  // types
+  // svelte
+  // sveltekit
+  // 3rd party
+  // project
+  // components
   import Seo from '$components/Seo.svelte';
-  import Footer from '$components/Footer.svelte';
-  import Header from '$components/Header.svelte';
   import Hero from '$components/Hero.svelte';
   import Catalog from '$components/Catalog.svelte';
+  import AboutUs from '$components/AboutUs.svelte';
+  // icons
+  // props
+  // state
+  // reactive statements
+  // event handlers
+  // lifecycle
 </script>
 
 <Seo />
 
-<Header />
-
 <main>
   <Hero />
   <Catalog />
-
-  <section>
-    <h2>About us</h2>
-  </section>
+  <AboutUs />
 
   <section>
     <h2>Reviews</h2>
   </section>
 
   <section>
-    <div>
-      <h2>Our contacts</h2>
-      <p>Phone (Airtel)</p>
-      <p>Phone (MTN)</p>
-      <p>WhatsApp</p>
-      <p>Email</p>
-    </div>
+    <table>
+      <h2 id="contact-us">Contact us</h2>
+      <tbody>
+        <tr>
+          <td>Phone (Airtel)</td>
+          <td><a href="tel:0702557298" target="_blank">0702557298</a></td>
+        </tr>
+        <tr>
+          <td>Phone (MTN)</td>
+          <td><a href="tel:0782346200" target="_blank">0782346200</a></td>
+        </tr>
+        <tr>
+          <td>Twitter</td>
+          <td>
+            <a href="https://twitter.com/shindradavid" target="_blank">@shindras-oven</a>
+          </td>
+        </tr>
+        <tr>
+          <td>WhatsApp</td>
+          <td><a href="https://wa.me" target="_blank">0702557298</a></td>
+        </tr>
+        <tr>
+          <td>Address</td>
+          <td>Nsambya, Gogonya road</td>
+        </tr>
+      </tbody>
+    </table>
   </section>
 </main>
-
-<Footer />
 
 <style lang="scss"></style>

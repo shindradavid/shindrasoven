@@ -1,0 +1,59 @@
+.sr-only {
+  clip: rect(0, 0, 0, 0);
+  position: absolute;
+  margin: -1px;
+  border-width: 0;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  border-radius: var(--radius-lg);
+  background-color: inherit;
+  width: fit-content;
+  font-weight: 700;
+  text-decoration: none;
+  font-family: var(--base-ff);
+  font-size: var(--base-fs);
+  border-radius: var(--btn-radius);
+  transition: color var(--base-animation-speed);
+}
+
+.cta-btn {
+  background-color: var(--cta-bg);
+  color: var(--cta-txt);
+}
+
+.primary-btn {
+  padding: var(--spacing-sm) var(--spacing-lg);
+  min-width: 96px;
+  font-size: var(--fs-sm);
+}
+
+.secondary-btn {
+  color: var(--secondary-txt);
+}
+
+.btn-primary-light {
+  background-color: var(--bg-btn-light);
+  color: var(--txt-btn-light);
+}
+
+.btn-primary-dark {
+  background-color: var(--bg-btn-dark);
+  color: var(--txt-btn-dark);
+}
+
+.btn-secondary {
+  padding: var(--spacing-sm) var(--spacing-lg);
+  min-width: 96px;
+  font-size: var(--fs-sm);
+}
